@@ -13,8 +13,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/plant-friends-website/" element={<Home />} />
+        <Route path="/plant-friends-website/privacy" element={<PrivacyPolicy />} />
+        <Route path="/plant-friends-website/deleteAccount" element={<DeleteAccountPage />} />
+
       </Routes>
     </Router>
   );
