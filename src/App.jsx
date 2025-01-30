@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home-Page';
 import PrivacyPolicy from './pages/Privacy-Policy-Page';
-
+import DeleteAccountPage from './pages/Delete-Account-Page';
 
 
 
